@@ -41,6 +41,11 @@ public class IntroLab {
      * Make sure you document your method properly!
      */
 
+    public static String choud394() {
+        return printLabMessage("Hello", "Stu Dent", true,
+                "Welcome to CSC207!");
+    }
+
     /**
      * An example method that calls on printLabMessage.
      */
@@ -52,7 +57,7 @@ public class IntroLab {
 
     public static void main(final String[] args) {
         System.out.println(exampleStudent());
-
+        System.out.println(choud394());
         /* TODO: Add a call to the method you wrote in this main method,
          *        and print the results of it.
          *
