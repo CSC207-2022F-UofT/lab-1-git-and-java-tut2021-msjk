@@ -42,6 +42,15 @@ public class IntroLab {
      */
 
     /**
+     * A method that calls on printLabMessage with method name as UTORid.
+     */
+
+    public static String tangju10() {
+        return printLabMessage("Good afternoon", "Julie Tang", true,
+                "First CSC207 tutorial!");
+    }
+
+    /**
      * An example method that calls on printLabMessage.
      */
     public static String exampleStudent() {
@@ -59,6 +68,7 @@ public class IntroLab {
          * As a reference, we've provided a sample call to exampleStudent
          * above. Afterwards: run this file to see the output!
          */
+        System.out.println(tangju10());
 
 
     }
